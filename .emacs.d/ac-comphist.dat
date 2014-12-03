@@ -1,38 +1,38 @@
-((("$Welcom" .
-   [1 0 1 0 0 0 0])
-  ("_WELCOME" .
-   [0 0 0 1 0 0 0 0])
-  ("function" .
-   [1 0 0 0 0 0 0 0])
-  ("calendar-week-start-day" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0])
-  ("setq" .
-   [1 0 0 0])
-  ("calendar-week-end-day" .
-   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
-  ("calendar-unmark" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("load" .
-   [1 0 0 0])
-  ("require" .
-   [0 0 1 1 0 0 0])
-  ("load-path" .
-   [0 0 0 0 1 0 0 0 0])
-  ("add-to-list" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("/usr/share/emacs/site-lisp/" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("load-file" .
-   [0 0 0 0 0 1 0 0 0])
-  ("AuthArray" .
-   [0 0 0 0 0 0 0 0 1])
-  ("RegUser" .
-   [0 0 0 0 1 0 0])
-  ("PhitAuthUser" .
-   [1 0 0 0 0 1 0 0 0 0 0 0])
-  ("if" .
+((("br" .
    [1 0])
   ("echo" .
    [1 0 0 0])
-  ("br" .
-   [1 0])))
+  ("if" .
+   [1 0])
+  ("PhitAuthUser" .
+   [1 0 0 0 0 1 0 0 0 0 0 0])
+  ("RegUser" .
+   [0 0 0 0 1 0 0])
+  ("AuthArray" .
+   [0 0 0 0 0 0 0 0 1])
+  ("load-file" .
+   [0 0 0 0 0 1 0 0 0])
+  ("/usr/share/emacs/site-lisp/" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("add-to-list" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("load-path" .
+   [0 0 0 0 1 0 0 0 0])
+  ("require" .
+   [0 0 1 1 0 0 0])
+  ("load" .
+   [1 0 0 0])
+  ("calendar-unmark" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("calendar-week-end-day" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("calendar-week-start-day" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0])
+  ("function" .
+   [1 0 0 0 0 0 0 0])
+  ("_WELCOME" .
+   [0 0 0 1 0 0 0 0])
+  ("$Welcom" .
+   [1 0 1 0 0 0 0])))

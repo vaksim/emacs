@@ -5,13 +5,13 @@
 
 ;;(tool-bar-mode -1)
 
-(add-to-list `load-path "~/.emacs.d")
+;(add-to-list `load-path "~/.emacs.d")
 ;;(require `maximus)
 
 (add-to-list `load-path "/usr/share/emacs/site-lisp")
 (add-to-list `load-path "/usr/share/emacs/site-lisp/mmm")
-(require `mmm-univ)
-(require `psgml)
+;(require `mmm-univ)
+;(require `psgml)
 
 
 (add-to-list 'auto-mode-alist '("\\.org$" . org-mode))
@@ -49,5 +49,5 @@
 ;;(setq color-theme-is-global t)
 
 
-(load "maximus")
+(load "~/.emacs.d/maximus")
 (setq default-major-mode 'c++-mode)
