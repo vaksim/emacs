@@ -1,0 +1,56 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . "srv/")
+ ("/srv/www/htdocs/" . "visor/")
+ ("/srv/www/" . "htdocs/")
+ ("/srv/" . "www/")
+ ("/srv/www/htdocs/visor/" . "lib/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/user/"
+ "/srv/www/htdocs/visor/"
+ "/srv/www/htdocs/visor/lang/"
+ "/srv/www/htdocs/visor/pages/"
+ "/srv/www/htdocs/visor/lib/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ ".gitignore"
+ "ru.php"
+ "auth_error.php"
+ "main.css"
+ "reg.php"
+ "page.php"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/user/.emacs.d/" (21631 52214 59000 0) "speedbar/" "maximus.org" "maximus.el" "ido.last~" "ido.last" "auto-save-list/" "auto-complete_old/" "auto-complete/" "ac-comphist.dat" "../" "./")
+
+ ("/srv/www/htdocs/visor/lib/" (21631 50181 970000 0) "var.php" "reg.php" "page.php" "auth_error.php" "#reg.php#" "../" "./")
+
+ ("/home/user/" (21631 52027 144000 0) "work/" "visor/" "navitel/" "emacs-nox.exe.stackdump" "download.php@country=Russia&region=Russia-ALT" ".w3m/" ".ssh/" ".profile" ".local/" ".inputrc" ".gitignore" ".gitconfig" ".git/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bash_profile" ".bash_history" ".bashrc" "#.emacs#" "../" "./")
+
+ ("/srv/www/htdocs/visor/pages/" (21631 49463 929000 0) "main.php" "auth_error.php~" "../" "./")
+
+ ("/srv/www/htdocs/visor/lang/" (21631 49463 942000 0) "ru.php" "../" "./")
+
+ ("/srv/www/htdocs/visor/" (21631 49775 782000 0) "tmp.php" "reaction.php" "pages/" "main.css~" "main.css" "lib/" "lang/" "index.php" "emacs-nox.exe.stackdump" ".gitignore" ".git/" "../" "./")
+
+ ("/home/" (21623 58876 610000 0) "user/" "../" "./")
+
+ ("/srv/www/htdocs/" (21630 33384 868000 0) "visor/" "index.html" "../" "./")
+
+ ("/srv/www/" (21630 32247 511000 0) "htdocs/" "cgi-bin/" "../" "./")
+
+ ("/srv/" (21630 32247 306000 0) "www/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

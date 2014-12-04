@@ -5,7 +5,7 @@
 
 ;;(tool-bar-mode -1)
 
-;(add-to-list `load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d")
 ;;(require `maximus)
 
 (add-to-list `load-path "/usr/share/emacs/site-lisp")
@@ -31,10 +31,11 @@
 (require `bs)
 (global-set-key (kbd "<f2>") `bs-show)
 
-(add-to-list `load-path "~/.emacs.d/auto-complete")
-(require `auto-complete-config)
-(ac-config-default)
-(add-to-list `ac-dictionary-directories "~./.emacs.d/auto-complete/dict")
+;(add-to-list `load-path "~/.emacs.d/auto-complete")
+;(require `auto-complete-config)
+;(ac-config-default)
+;(ac-config)
+;(add-to-list `ac-dictionary-directories "~./.emacs.d/auto-complete/dict")
 
 (add-to-list `load-path "~/.emacs.d/speedbar")
 (require `sr-speedbar)
@@ -51,3 +52,25 @@
 
 (load "~/.emacs.d/maximus")
 (setq default-major-mode 'c++-mode)
+
+(custom-set-variables 
+'(column-number-mode t) ;;внизу будем видеть номер столбца
+'(default-input-method "russian-computer");;ну а куда без этого
+'(display-time-mode t) ;;ну.. в принципе не надо, но симпатично
+'(tool-bar-mode nil)) ;;вот он тут точно не нужен
+(setq inhibit-startup-message t) ;;не показывать сообщение при старте
+(fset 'yes-or-no-p 'y-or-n-p) ;;не заставляйте меня печать yes целиком
+(setq default-tab-width 4) ;;подифолту
+
+(add-to-list `load-path "~/.emacs.d/php-mode")
+(require 'php-mode)
+;;(require 'php-electric) ;;режим autocompletion конструкций языка
+(require 'msf-abbrev) ;;подгружаем "режим сокращений"
+(setq-default abbrev-mode t) ;;ставим его подифолту
+(setq save-abbrevs nil) ;;не надо записывать в дефолтный каталог наши сокращения
+(setq msf-abbrev-root "~/.emacs.d/abb") ;;надо записывать их сюда
+(global-set-key (kbd "C-c a") 'msf-abbrev-define-new-abbrev-this-mode) ;;(Ctrl-c a) для создания нового сокращения
+;;(msf-abbrev-load) ;;пусть этот режим будет всегда :)
+
+
+(require 'nlinum)
